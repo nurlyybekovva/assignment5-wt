@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment 5 Exercises</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<script src="index.js"></script>
 
-<!-- Task 3. First not repeated character --->
+<!-- PART 1-->
+<!-- Task 3. First not repeated character -->
 
-<h1>Find first not repeated character</h1>
+<h2>Find first not repeated character</h2>
 <p>
     <label for="str">Enter the character: </label>
     <input type="text" id="str">
@@ -17,7 +18,10 @@
 <button onclick="notRepeatedChar()">Click</button>
 <p>Result: <span id="res"></span></p>
 
+
+
 <!-- Task 4. Replace every character in a given string --->
+
 
 <h2>Replace every character in a given string</h2>
 <p>
@@ -25,7 +29,124 @@
     <input type="text" id="repChar">
 </p>
 <button onclick="replaceChar()">Click</button>
+
+
+<!-- PART 2--->
+<p id="task6">
+    Solor sit amet dictum, nulla facilisi consequat ! etiam vitae sollicitudin suspendisse.
+</p>
+
+<hr>
+
+<p id="task7">
+    Solor sit amet dictum, nulla facilisi consequat ! etiam vitae sollicitudin suspendisse?
+</p>
+
+<hr>
+
+<p id="task8">
+    Solor sit amet dictum, nulla facilisi consequat ! etiam vitae sollicitudin suspendisse. Solor sit amet dictum, nulla facilisi consequat ! etiam vitae sollicitudin suspendisse. Solor sit amet dictum, nulla facilisi consequat ! etiam vitae sollicitudin suspendisse.
+</p>
+
+<hr>
+
+<p id="task9">
+    Solor sit amet dictum, nulla facilisi consequat ! etiam vitae sollicitudin suspendisse.
+</p>
+
+<hr>
+
+<p id="task10">
+    Solor sit amet dictum, nulla facilisi consequat ! etiam vitae sollicitudin suspendisse.
+</p>
+
+<hr>
+
+<!-- PART 3 --->
+<!-- Task 11. Calculate the volume of a sphere. The formula is V = 4/3 π r³. --->
+<h3>Volume of a sphere</h3>
+<p>Input radius value and get the volume of a sphere</p>
+<p>
+    <label for="task11">Radius: </label>
+    <input type="text"  id="task11" >
+</p>
+<p>Volume: <span id="res11"></span></p>
+<button onclick="task11()">Calculate</button>
+
+<hr>
+
+<!-- Task 12. Calculate the volume of a cylinder. The formula is V = π r^2 h.  --->
+<h3>Volume of a cylinder</h3>
+<p>Input radius value, height value and get the volume of a cylinder</p>
+<p>
+    <label for="task12rad">Radius: </label>
+    <input type="text"  id="task12rad" >
+</p>
+<p>
+    <label for="task12hei">Height: </label>
+    <input type="text"  id="task12hei" >
+</p>
+<p>Volume: <span id="res12"></span></p>
+<button onclick="task12()">Calculate</button>
+
+<hr>
+
+<!-- Task 13. Calculate the volume of a cone. The formula is V=1/3hπr². --->
+<h3>Volume of a cone</h3>
+<p>Input radius value, height value and get the volume of a cone</p>
+<p>
+    <label for="task13rad">Radius: </label>
+    <input type="text"  id="task13rad" >
+</p>
+<p>
+    <label for="task13hei">Height: </label>
+    <input type="text"  id="task13hei" >
+</p>
+<p>Volume: <span id="res13"></span></p>
+<button onclick="task13()">Calculate</button>
+
+<hr>
+
+<!-- Task 14. Calculate the volume of a prism. The formula is V=B*h. B = ab. --->
+<h3>Volume of a prism</h3>
+<p>Input height value, a and b sides values and get the volume of a prism</p>
+<p>
+    <label for="task14a">Side a: </label>
+    <input type="text"  id="task14a" >
+</p>
+<p>
+    <label for="task14b">Side b: </label>
+    <input type="text"  id="task14b" >
+</p>
+<p>
+    <label for="task14h">Height: </label>
+    <input type="text"  id="task14h" >
+</p>
+<p>Volume: <span id="res14"></span></p>
+<button onclick="task14()">Calculate</button>
+
+<hr>
+
+
+<!-- Task 15. Calculate the area of a triangle. The formula is S = ½ * b*h. --->
+<h3>Area of a triangle</h3>
+<p>Input base and height values and get the area of a triangle</p>
+<p>
+    <label for="task15base">Base: </label>
+    <input type="text"  id="task15base" >
+</p>
+<p>
+    <label for="task15height">Height: </label>
+    <input type="text"  id="task15height" >
+</p>
+<p>Area: <span id="res15"></span></p>
+<button onclick="task15()">Calculate</button>
+
+<hr>
+
+
+<!-- --->
+
+<script src="index.js"></script>
 </body>
 </html>
-
-<!--- Task  --->
